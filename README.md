@@ -14,7 +14,7 @@ No code required. Add TXT records and your profile appears at `https://yourdomai
 
 Both `:` and `=` work. Long names are the recommended form; short names work as alternatives.
 
-After saving, visit `https://yourdomain.hns.bio` (replace with your domain) or search for it on [hns.bio](https://hns.bio).
+After saving, visit `https://yourdomain.profile` (replace with your domain) or search for it on [https://profile](https://profile). (Use HNS Resolver)
 
 ## Layout
 
@@ -91,8 +91,12 @@ ln:lnbc...
 Supported:  
 `btc`, `ln`, `hns`, `eth`, `xmr`, `zec`, `bat`, `aave`, `ada`, `algo`, `apt`, `atom`, `avax`, `bch`, `bgb`, `bnb`, `chainlink`, `cro`, `dai`, `doge`, `dot`, `ena`, `etc`, `fil`, `gt`, `hbar`, `hype`, `icp`, `jup`, `kas`, `leo`, `ltc`, `mnt`, `near`, `okb`, `om`, `ondo`, `op`, `pepe`, `pi`, `pol`, `render`, `shib`, `sol`, `sui`, `tao`, `tia`, `ton`, `trx`, `uni`, `usdc`, `usde`, `usdt`, `vet`, `xlm`, `xrp`
 
-**HIP-002**: Wallet addresses are also available at  
+**HIP-002**: Wallet addresses are also available at:  
 `https://yourdomain.hns.bio/.well-known/wallets/BTC` (uppercase symbol).
+
+**NIP-05** Nostr identifier available at:
+`https://yourdomain.profile.well-known/nostr.json`
+
 
 ## Chaining
 
@@ -102,8 +106,8 @@ Supported:
 
 ## Notes
 
-- Works with Handshake TLDs/SLDs, ENS names, and regular DNS domains.
-- Uses public DNS resolvers to fetch the records.
+- Works with HNS TLDs/SLDs, ENS names, and regular DNS domains.
+- Uses public HNS resolver to fetch the records.
 - This is a demo project. Free to use, modify, and improve.
 
 More details and source: [github.com/H4ckB4s3/profile](https://github.com/H4ckB4s3/profile)
