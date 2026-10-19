@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>.PROFILE | Decentralized profile</title>
+    <meta name="description" content="Create a sovereign, decentralized profile using TXT records (DNS/HNS). No code. Supports socials, wallets, and custom layouts.">
+    <!-- Open Graph -->
+    <meta property="og:title" content="HNS.BIO | Decentralized profile">
+    <meta property="og:description" content="Build a censorship-resistant profile with TXT records. Your identity, on your terms.">
+    <meta property="og:url" content="https://hns.bio">
+    <meta property="og:type" content="website">
+    <!-- <meta property="og:image" content="https://hns.bio/img/og-image.png"> -->
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="HNS.BIO | Decentralized profile">
+    <meta name="twitter:description" content="Build a censorship-resistant profile with TXT records. Your identity, on your terms.">
+    <link rel="shortcut icon" href="/img/hns.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css?version=1">
+</head>
+<body class="search-page" data-fetch="search">
+    <!-- Theme Switcher -->
+    <div class="theme-switcher" id="theme-switcher">
+        <button class="theme-button" id="theme-button">
+            <img src="img/sys/settings.png" alt="Settings">
+        </button>
+        <div class="theme-dropdown" id="theme-dropdown"></div>
+    </div>
+    
+    <!-- UPDATED SEARCH CONTAINER (new logo, subtitle, input design) -->
+    <div class="search-container" id="search-container">
+        <div class="logo-container">
+            <div class="dprofile-logo">PROFILE</div>
+            <div class="subtitle">HNS • DNS • ENS based identity</div>
+        </div>
+        <div class="search-card">
+            <div class="search-box">
+                <input type="text" 
+                       id="domain-input" 
+                       placeholder="Enter TLD or SLD" 
+                       autofocus
+                       autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       spellcheck="false">
+                <button id="go-button">Search</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Profile Content - Exactly like reference structure -->
+    <div id="content">
+        <div class="profile" id="profile"></div>
+        <div class="links" id="links"></div>
+        <div class="currency-buttons" id="currency-buttons"></div>
+        <div class="go-back-button-container">
+            <button class="go-back-button" id="go-back-button">BACK</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; <span id="current-year">2025</span> <a href="/">.PROFILE</a> | <a href="https://github.com/H4ckB4s3/hns-bio/blob/main/README.md" target="_blank">Setup your identity | <a class="footericon" href="https://github.com/H4ckB4s3/hns-bio/" target="_blank"><img src="img/gh.png" alt="GitHub Icon"></a></a><a class="footericon" href="https://x.com/hnsbio" target="_blank"><img src="img/x.png" alt="X Icon"></a><a class="footericon" href="https://bsky.app/profile/hns.bio" target="_blank"><img src="img/bsky.png" alt="BSKY Icon"></a>
+    </footer>
+
+<script src="/fetch.js"></script>
+<script src="js/shortcuts.js"></script>
+</body>
+</html>
