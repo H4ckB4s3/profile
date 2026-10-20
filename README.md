@@ -6,7 +6,7 @@ No code required. Add TXT records and your profile appears at `https://yourdomai
 
 ## Setup
 
-1. Open your domain manager (Namebase, Shakestation, etc.).
+1. Open your domain manager (Namebase.io/wallet, bobwallet.org, etc.).
 2. Add a TXT record:
    - **Type**: TXT
    - **Name**: `@` (or leave blank)
