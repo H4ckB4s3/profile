@@ -1,6 +1,6 @@
 # PROFILE
 
-A simple decentralized profile page built from TXT records on your domain (HNS, DNS, or ENS).
+A cross-domain identity layer built on HNS, DNS, and ENS TXT records
 
 No code required. Add TXT records and your profile appears at `https://yourdomain.profile` or via the search page at [https://profile](https://profile). (Use HNS resolver)
 
