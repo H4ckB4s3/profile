@@ -24,7 +24,6 @@ After saving, visit `https://yourdomain.profile` (replace with your domain) or s
 | `bgcolor`|             | Background color (hex)   | `bgcolor:121212`             |
 | `bg`     |             | Background image         | `bg:example.com/bg.png`      |
 | `fav`    |             | Favicon                  | `fav:example.com/icon.ico`   |
-| `css`    |             | Custom CSS file          | `css:mytheme`                |
 
 ## Communication
 
