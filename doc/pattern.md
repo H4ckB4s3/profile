@@ -1,6 +1,6 @@
-# hns.bio — Platform URL Patterns
+# PROFILE — URL Patterns
 
-This guide lists common URL patterns for major platforms so you can add a platform link to an `hns.bio` TXT record.
+This guide lists common URL patterns for major platforms so you can add a platform link to an `Profile` TXT record.
 
 **How to read the tables:**
 - **URL pattern:** The full URL format on the platform.
@@ -20,7 +20,6 @@ Replace placeholders such as `USERNAME`, `VIDEO_ID`, and `CHANNEL_ID` with the a
 | `rumble.com/playlists/ID` | Playlist | `playlists/ID` |
 | `rumble.com/search/all?q=QUERY` | Search results | `search/all?q=QUERY` |
 | `rumble.com/register/REFERRAL` | Referral registration | `register/REFERRAL` |
-| `rumble.com/account/...` | Account settings and management | `account/...` |
 
 ## YouTube
 
@@ -92,7 +91,6 @@ Replace placeholders such as `USERNAME`, `VIDEO_ID`, and `CHANNEL_ID` with the a
 | URL pattern | Purpose | TXT record value |
 | --- | --- | --- |
 | `medium.com/@USERNAME` | Writer profile | `@USERNAME` |
-| `USERNAME.medium.com` | Alternative profile URL | `USERNAME.medium.com` |
 | `medium.com/PUBLICATION-NAME` | Publication homepage | `PUBLICATION-NAME` |
 | `medium.com/tag/TOPIC` | Topic page | `tag/TOPIC` |
 | `medium.com/@USERNAME/STORY-SLUG` | Article published under a writer's profile | `@USERNAME/STORY-SLUG` |
@@ -145,7 +143,6 @@ Replace placeholders such as `USERNAME`, `VIDEO_ID`, and `CHANNEL_ID` with the a
 | URL pattern | Purpose | TXT record value |
 | --- | --- | --- |
 | `t.me/USERNAME` | Open a chat with a public username | `USERNAME` |
-| `USERNAME.t.me` | Alternative username link | `USERNAME.t.me` |
 | `t.me/+PHONENUMBER` | Find or contact someone by phone number, subject to privacy settings | `+PHONENUMBER` |
 | `t.me/CHANNELNAME` | Open a public channel | `CHANNELNAME` |
 | `t.me/GROUPNAME` | Open a public group | `GROUPNAME` |
