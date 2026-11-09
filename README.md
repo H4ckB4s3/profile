@@ -94,7 +94,7 @@ Supported:
 `https://yourdomain.hns.bio/.well-known/wallets/BTC` (uppercase symbol).
 
 **NIP-05** Nostr identifier available at:
-`https://yourdomain.profile.well-known/nostr.json`
+`https://yourdomain.profile/well-known/nostr.json`
 
 
 ## Chaining
